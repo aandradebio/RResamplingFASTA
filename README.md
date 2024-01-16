@@ -13,11 +13,11 @@ Install the Bioconductor's Biostrings package by running the following commands 
 ```R
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
-BiocManager::install("Biostrings")
+BiocManager::install("Biostrings")```
 
 ## Usage
 
-Rscript random_resampling.R input_fasta output_folder num_resamples num_sequences
+```Rscript random_resampling.R input_fasta output_folder num_resamples num_sequences```
 
 input_fasta: Path to the input FASTA file.
 output_folder: Path to the output folder where resampled FASTA files will be saved.
